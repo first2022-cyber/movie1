@@ -37,7 +37,7 @@ display_date = selected_date.strftime("%Y년 %m월 %d일")
 
 # 인증키는 Streamlit 비밀 금고(Secrets)에서만 불러옵니다.
 try:
-    API_KEY = st.secrets["KOBIS_KEY"]
+    API_KEY = "420c52ad0a4248606ebaa168894e5d2c"
 except Exception:
     st.error("🔐 KOBIS 인증키를 찾을 수 없습니다.")
     st.markdown(
